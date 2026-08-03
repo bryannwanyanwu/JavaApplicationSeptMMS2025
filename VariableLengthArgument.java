@@ -13,7 +13,7 @@ public class VariableLengthArgument{
 	public  static int addition (int... numbers){
 		int sum = 0;
 		for(int number : numbers){
-			sum += numbers;
+			sum += number;
 		}
 		return sum;
 	}

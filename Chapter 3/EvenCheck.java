@@ -8,7 +8,7 @@ public class EvenCheck {
         int number = scanner.nextInt();
 
     
-        String[] results = {"Even", "Odd"};
+        String[] results = {"Even", "odd"};
 
         
         int index = Math.abs(number % 2);
